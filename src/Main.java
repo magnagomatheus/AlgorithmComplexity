@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-    LinkedList<Student> l = new LinkedList<Student>();
+    LinkedList<Student> l = new LinkedList<Student>(true);
     Student s1 = new Student(1, "zé", 50);
     Student s2 = new Student(2, "Mane", 50);
     l.insert(s1);

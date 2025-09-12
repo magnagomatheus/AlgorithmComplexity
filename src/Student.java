@@ -1,4 +1,4 @@
-public class Student {
+public class Student implements Comparable<Student> {
     private String name;
     private int registry;
     private int grade;
@@ -26,5 +26,10 @@ public class Student {
     public boolean equals(Object a) {
         if(a instanceof Student) return this.registry == ((Student)a).registry;
         else return false;
+    }
+
+    @Override
+    public int compareTo(Student s) {
+        return this.name.compareTo(s.name);
     }
 }

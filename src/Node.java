@@ -1,17 +1,17 @@
-public class Node {
+public class Node<T> {
 
-    private Object value;
-    private Node next;
+    private T value;
+    private Node<T> next;
 
-    public Node(Object value) {
+    public Node(T value) {
         this.value = value;
         this.next = null;
     }
 
-    public Node getNext() {
+    public Node<T> getNext() {
         return next;
     }
-    public void setNext(Node n) {
+    public void setNext(Node<T> n) {
         this.next = n;
     }
 
@@ -19,7 +19,7 @@ public class Node {
         return this.value;
     }
 
-    public void setValue(Object v) {
+    public void setValue(T v) {
         this.value = v;
     }
 
