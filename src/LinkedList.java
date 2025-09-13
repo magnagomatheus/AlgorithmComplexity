@@ -3,24 +3,14 @@ public class LinkedList<T extends Comparable> {
     private Node<T> first;
     private Node<T> last;
     private int length;
-    private final boolean ordered;
 
-    public LinkedList(boolean isOrdered) {
+    public LinkedList() {
         this.first = null;
         this.last = null;
         this.length = 0;
-        this.ordered = isOrdered;
     }
 
     public void insert(T elem) {
-        if(this.ordered == false) {
-            insertNotOrderedElem(elem);
-        } else {
-            insertOrderedElem(elem);
-        }
-    }
-
-    public void insertNotOrderedElem(T elem) {
         Node<T> born = new Node<T>(elem);
 
         if(this.first == null) {
@@ -34,46 +24,6 @@ public class LinkedList<T extends Comparable> {
         this.length++;
     }
 
-    public void insertOrderedElem(T elem) {
-        Node<T> born = new Node<T>(elem);
-        Node<T> current, prev;
-        current = this.first;
-        prev = null;
-
-        // If list is empty, the new element (node) will be the first and last
-        if(this.first == null) {
-            this.first = born;
-            this.last = born;
-        }
-        else {
-            // While not the end of the list and the current node it's a element that is lower than the his next, go to the next element (node)
-
-            // Note that, the order of the conditions makes difference
-            while(current != null && current.getValue().compareTo(elem) < 0) {
-                prev = current;
-                current = current.getNext();
-            }
-
-            // If previous node is null, so do not enter the loop... So the new lower than the first (node) should be insert at the beginning of the list.
-            if(prev == null) {
-                born.setNext(this.first);
-                this.first = born;
-            }
-
-            // If current is null, so its pass through the list and the new node should be insert as the last element.
-            else if( current == null) {
-                this.last.setNext(born);
-                this.last = born;
-            }
-            // if the current element it's not the first nor last element
-            else {
-                prev.setNext(born);
-                born.setNext(current);
-            }
-        }
-        this.length++;
-
-    }
 
     public boolean elemExists(T elem) {
         Node<T> aux = this.first;

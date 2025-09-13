@@ -15,7 +15,7 @@ public class Node<T> {
         this.next = n;
     }
 
-    public Object getValue() {
+    public T getValue() {
         return this.value;
     }
 
