@@ -123,37 +123,57 @@ public class LinkedListWithComparator<T> {
     }
 
     public T search(T value) {
+        // If the list is empty, there is no reason to search
         if(this.first == null) {
             return null;
         }
+        // if the last value is equals to value, so return the element.
         if(this.last.getValue() == value) {
             return this.last.getValue();
         }
+        // Assistent node
         Node<T> aux = this.first;
 
+        // If the list it's ordered, so compare the elements,
+        // if the elements are equals --> return 0
+        // if an element is greater than the other --> return 1
+        // if an element is lower than the other --> return -1.
         if(this.ordered) {
-            if(comparator.compare(this.last.getValue(), value) < 0 || comparator.compare(this.first.getValue(), value) > 0) {
+            // If the element that we are searching for:
+                // is lower than the first element --> so he is not in the list (return null)
+                // is greater than the last element --> So he also is not in the list (return null)
+            if(comparator.compare(value, this.last.getValue()) > 0 || comparator.compare(value, this.first.getValue()) < 0) {
                 return null;
             }
+            // If the element may be in the list --> search.
             while(aux != null) {
+                // Comparator result
                 int cmp = comparator.compare(aux.getValue(), value);
+                // If equals --> return the element.
                 if(cmp == 0) {
                     return aux.getValue();
+                    // if aux is greater than the element, so there is no reason to continue, he is not in the list.
                 } else if(cmp > 0) {
                     return null;
                 }
+                // aux go to the next
                 aux = aux.getNext();
             }
         }
 
+        // If the list is not ordered --> search one by one.
         else {
+            // While is not the end of the list
             while(aux != null) {
+                // If elements are equal --> return element
                 if(aux.getValue().equals(value)) {
                     return aux.getValue();
                 }
+                // go to the next node
                 aux = aux.getNext();
             }
         }
+        // not found.
         return null;
     }
 
