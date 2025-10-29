@@ -33,5 +33,8 @@ public class Main {
     // Printing both lists
     System.out.println(listOrderedName);
     System.out.println(listOrderedRegistry);
+
+    System.out.println("Test code wise");
+
     }
 }
