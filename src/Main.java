@@ -46,8 +46,6 @@ public class Main {
         System.out.println("groq test3");
 
         System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
 
 
     }
