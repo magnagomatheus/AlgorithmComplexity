@@ -44,9 +44,6 @@ public class Main {
         System.out.println("groq test");
 
         System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("laflafsp[afl[pfasl");
 
 
     }
