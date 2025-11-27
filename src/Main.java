@@ -49,6 +49,21 @@ public class Main {
         System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
         System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
         System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD512");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD15");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD2");
+        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD5");
 
 
 
