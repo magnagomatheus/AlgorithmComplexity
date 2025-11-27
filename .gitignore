@@ -30,3 +30,4 @@ bin/
 
 .venv/
 .env
+.analises-julgamento-lgpd/
