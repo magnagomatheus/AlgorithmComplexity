@@ -34,9 +34,5 @@ public class Main {
     System.out.println(listOrderedName);
     System.out.println(listOrderedRegistry);
 
-    System.out.println("Test code wise");
-    System.out.println("Test code wise2");
-    System.out.println("groq test");
-
     }
 }
