@@ -42,28 +42,16 @@ public class Main {
         System.out.println("Test code wise65");
 
         System.out.println("groq test");
+        System.out.println("Test code wise2");
+        System.out.println("Test code wise3");
+        System.out.println("Test code wise4");
+        System.out.println("Test code wise65");
+        System.out.println("Test code wise2");
+        System.out.println("Test code wise3");
+        System.out.println("Test code wise4");
+        System.out.println("Test code wise65");
 
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD512");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD15");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD2");
-        System.out.println("LGPDDDDDDDDDDDDDDDDDDDDDDDDD5");
+
 
 
 
