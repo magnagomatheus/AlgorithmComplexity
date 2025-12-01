@@ -30,4 +30,5 @@ bin/
 
 .venv/
 .env
-.analises-julgamento-lgpd/*
+analises-julgamento-lgpd/*
+analises-concluidas/*
