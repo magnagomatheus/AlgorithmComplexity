@@ -21,7 +21,6 @@ public class Main {
         
         // Searching students
         controller.searchStudentByRegistry(new Student(3, null, 0));
-        controller.searchStudentByName(new Student(3, "Ze", 0));
         
         // Displaying lists
         controller.displayLists();
