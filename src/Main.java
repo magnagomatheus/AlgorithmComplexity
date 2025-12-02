@@ -9,11 +9,13 @@ public class Main {
         Student s1 = new Student(1, "Ze", 12);
         Student s2 = new Student(2, "Mane", 12345);
         Student s3 = new Student(3, "Josep", 777);
+        Student s4 = new Student(4, "Anna", 441);
         
         // Adding students
         controller.addStudent(s1);
         controller.addStudent(s2);
         controller.addStudent(s3);
+        controller.addStudent(s4);
         
         // Checking if students exist
         controller.checkStudentExists(s1);
@@ -21,6 +23,7 @@ public class Main {
         
         // Searching students
         controller.searchStudentByRegistry(new Student(3, null, 0));
+        controller.searchStudentByRegistry(new Student(4, null, 0));
         
         // Displaying lists
         controller.displayLists();
