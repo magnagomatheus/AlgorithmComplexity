@@ -14,8 +14,7 @@ public class Main {
         // Adding students
         controller.addStudent(s1);
         controller.addStudent(s2);
-        controller.addStudent(s3);
-        controller.addStudent(s4);
+
         
         // Checking if students exist
         controller.checkStudentExists(s1);
