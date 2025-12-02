@@ -8,7 +8,7 @@ public class Main {
         // Creating students
         Student s1 = new Student(1, "Ze", 12);
         Student s2 = new Student(2, "Mane", 12345);
-        Student s3 = new Student(3, "Josepppp", 777);
+        Student s3 = new Student(3, "Josep", 777);
         
         // Adding students
         controller.addStudent(s1);
