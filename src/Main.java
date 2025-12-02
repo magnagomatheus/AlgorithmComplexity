@@ -20,6 +20,7 @@ public class Main {
         // Checking if students exist
         controller.checkStudentExists(s1);
         controller.checkStudentExists(s2);
+        controller.checkStudentExists(s4);
         
         // Searching students
         controller.searchStudentByRegistry(new Student(3, null, 0));
