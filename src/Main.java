@@ -24,5 +24,7 @@ public class Main {
         
         // Displaying lists
         controller.displayLists();
+
+        System.out.println("lalalala");
     }
 }
