@@ -24,5 +24,10 @@ public class Main {
         
         // Displaying lists
         controller.displayLists();
+        System.out.println("ömgggggg");
+        System.out.println("ömgggggg");
+        System.out.println("ömgggggg");
+        System.out.println("ömgggggg");
+        System.out.println("ömgggggg");
     }
 }
