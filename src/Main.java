@@ -9,7 +9,7 @@ public class Main {
         Student s1 = new Student(1, "Ze", 12);
         Student s2 = new Student(2, "Mane", 12345);
         Student s3 = new Student(3, "Josep", 777);
-        Student s4 = new Student(4, "Anne", 441);
+        Student s4 = new Student(4, "Annnnnnnnnnnnn", 441);
         
         // Adding students
         controller.addStudent(s1);
