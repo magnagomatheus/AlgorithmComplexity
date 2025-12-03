@@ -29,6 +29,10 @@ public class Main {
         
         // Displaying lists
         controller.displayLists();
-        System.out.println("aaaa");
+        System.out.println("1");
+        System.out.println("22");
+        System.out.println("333");
+        System.out.println("4444");
+        System.out.println("55555");
     }
 }
