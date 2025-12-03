@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+.venv/
+.env
+analises-julgamento-lgpd/*
+analises-concluidas/*
